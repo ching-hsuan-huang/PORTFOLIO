@@ -216,6 +216,12 @@ table {
     text-decoration: underline;
 }
 
+.font_oblique {
+    font-weight: lighter;
+    color: #7382a3;
+    font-style: oblique;
+}
+
 .button_fff {
     background-color: rgba(201, 201, 201, 0.383);
     letter-spacing: 1px;
@@ -524,8 +530,16 @@ table {
 .about_me_word_p {
     font-size: 1.1rem;
     background-color: #7382a3;
-    font-weight: lighter;
+    font-weight: bold;
     color: #fff;
+    margin-left: 30px;
+}
+
+.about_me_ul{
+   list-style: disc;
+    margin-left: 60px;
+    font-weight: lighter;
+    color: #161c2c;
 }
 
 .slogan {
