@@ -520,10 +520,7 @@ table {
 
 .about_me_word {
     width: 50%;
-    line-height: 1.5;
-    position: absolute;
-    right: 10%;
-    top: 15%;
+    line-height: 2;
     z-index: 0;
 }
 
