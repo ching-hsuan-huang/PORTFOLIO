@@ -573,16 +573,10 @@ table {
     text-align: right;
     position: relative;
     margin: 30% 0 5% -30%;
+    width: 40%;
 }
 
-.content_02 {
-    .font_slogan {
-        font-size: 12em;
-    }
-    .h1_3 {
-        width: 40%;
-    }
-}
+
 
 @media screen and (max-width: 1130px) {
     .content_01_about_me {
