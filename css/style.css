@@ -797,12 +797,9 @@ img {
     flex-wrap: wrap;
 }
 
-.h1_4_title {
-    margin: 5% 45% 5% 0;
-}
 
 .h1_4 {
-    width: 320px;
+    width: 600px;
     padding: 5%;
     margin: 0 5% 10% 0;
     z-index: 4;
