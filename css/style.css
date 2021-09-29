@@ -224,7 +224,7 @@ table {
 
 .button_fff {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     background-color: rgba(201, 201, 201, 0.383);
     letter-spacing: 1px;
     display: inline-block;
@@ -753,6 +753,7 @@ img {
 }
 
 .h2_1 {
+    padding-bottom: 100px;
     width: 24%;
     padding: 40px 3%;
     background-color: rgba(255, 255, 255, 0.95);
