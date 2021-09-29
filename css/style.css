@@ -409,6 +409,10 @@ table {
     z-index: 100;
     margin-top: 30px;
     align-items: center;
+    background: url(https://raw.githubusercontent.com/ching-hsuan-huang/PORTFOLIO/main/img/3333.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-bottom: 400px;
 }
 
 .h1_1 {
@@ -505,7 +509,7 @@ table {
 .content_02 {
     position: relative;
     z-index: 0;
-    margin-top: -30px;
+    margin-top: -100px;
 }
 
 .content_02_up {
