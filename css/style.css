@@ -223,6 +223,8 @@ table {
 }
 
 .button_fff {
+    position: absolute;
+    bottom: 30px;
     background-color: rgba(201, 201, 201, 0.383);
     letter-spacing: 1px;
     display: inline-block;
@@ -235,7 +237,7 @@ table {
 }
 
 .font_a {
-    font-size: 0.9em;
+    font-size: 1.2em;
     text-decoration: none;
 }
 
