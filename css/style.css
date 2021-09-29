@@ -711,7 +711,8 @@ img {
 }
 
 .content_03_left_all {
-    width: 50%;    
+    width: 70%;
+    margin: 0 15%;   
     display: flex;
     justify-content: space-around;
 }
