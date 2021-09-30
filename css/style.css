@@ -185,24 +185,24 @@ table {
 
 .font_h1 {
     color: #161c2c;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-family: sans-serif;
     font-weight: bold;
-    letter-spacing: 0.2em;
-    line-height: 1.5;
+    letter-spacing: 0.3em;
+    line-height: 2;
 }
 
 .font_h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: sans-serif;
     font-weight: bold;
     margin: 10px 0;
 }
 
 .font_p {
-    font-size: 1em;
+    font-size: 1.3em;
     letter-spacing: 0.1em;
-    line-height: 2.5;
+    line-height: 3.5;
 }
 
 .font_p_s {
@@ -220,6 +220,7 @@ table {
     font-weight: lighter;
     color: #7382a3;
     font-style: oblique;
+    font-size: 1.2rem;
 }
 
 .button_fff {
@@ -228,7 +229,7 @@ table {
     background-color: rgba(201, 201, 201, 0.383);
     letter-spacing: 1px;
     display: inline-block;
-    padding: 12px 15px 10px 15px;
+    padding: 17px 30px 15px 30px;
     border-radius: 5px;
     margin-top: 20px;
     border: 1px solid #ffffff;
@@ -237,7 +238,7 @@ table {
 }
 
 .font_a {
-    font-size: 1.2em;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -531,7 +532,7 @@ table {
 }
 
 .about_me_word_p {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     background-color: #7382a3;
     font-weight: bold;
     color: #fff;
@@ -543,6 +544,10 @@ table {
     margin-left: 60px;
     font-weight: lighter;
     color: #161c2c;
+}
+
+.about_me_li{
+   font-size: 1.4rem;
 }
 
 .slogan {
@@ -717,6 +722,7 @@ img {
     margin: 0 15%;   
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .content_03_right_top {
@@ -778,10 +784,9 @@ img {
 
 
 .h1_4 {
-    width: 600px;
-    margin: 30px 10%;
-    padding: 5%;
-    margin: 0 5% 10% 0;
+    width: 640px;
+    margin: 50px 20%;
+    padding: 2% 2%;
     z-index: 4;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 5px;
@@ -790,6 +795,7 @@ img {
 
 .h1_4_h3 {
     color: #7382a3;
+    font-size: 1.8em;
 }
 
 
@@ -816,6 +822,14 @@ img {
     font-size: 12px;
     display: block;
     margin-top: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+   .h2{
+       width: 80%;
+       margin: 30px 10%;
+       padding: 40px 4%;
+   }
 }
 
 @media screen and (max-width: 1000px) {
