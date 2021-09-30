@@ -224,7 +224,6 @@ table {
 }
 
 .button_fff {
-    position: absolute;
     bottom: 40px;
     background-color: rgba(201, 201, 201, 0.383);
     letter-spacing: 1px;
@@ -837,6 +836,9 @@ img {
        width: 80%;
        margin: 30px 10%;
        padding: 40px 4%;
+   }
+   .button_fff {
+       position: absolute;
    }
 }
 
