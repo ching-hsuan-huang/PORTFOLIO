@@ -546,7 +546,7 @@ table {
     color: #161c2c;
 }
 
-.about_me_li{
+.about_me_ul li{
    font-size: 1.4rem;
 }
 
@@ -824,7 +824,7 @@ img {
 }
 
 @media screen and (max-width: 1440px) {
-   .h2{
+   .h2_1{
        width: 80%;
        margin: 30px 10%;
        padding: 40px 4%;
