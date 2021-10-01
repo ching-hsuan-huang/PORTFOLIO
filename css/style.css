@@ -768,7 +768,8 @@ table {
     }
        
     .h1_2 {
-        margin: 3%;
+        margin: 3%;       
+        margin-top: 100px;
     }
    
     .h1_4 {
