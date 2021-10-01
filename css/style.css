@@ -915,6 +915,7 @@ img {
 
 .h1_4 {
     width: 640px;
+    margin: 5%;
     padding: 2% 2%;
     z-index: 4;
     background-color: rgba(255, 255, 255, 0.95);
