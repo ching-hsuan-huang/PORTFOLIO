@@ -281,6 +281,7 @@ table {
 
 .menu {
     display: flex;
+    width: 30%;
 }
 
 .menu_list {
@@ -291,7 +292,7 @@ table {
     padding: 5px 0;
     margin: 0 15px;
     display: block;
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
     border-bottom: 3px solid #3f4b64;
@@ -700,6 +701,14 @@ table {
 }
 
 @media screen and (max-width: 767px) {
+   
+    .menu_list a {
+        margin: 0;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
     .font_a {
         font-size: 1.5em;
     }
