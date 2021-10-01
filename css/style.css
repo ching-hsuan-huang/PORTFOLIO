@@ -608,7 +608,8 @@ table {
         margin: 60% 0 5% -30%;
     }
     .content_03_left_all{
-       
+        flex-direction: column;
+        align-content: center;
     }
 }
 
