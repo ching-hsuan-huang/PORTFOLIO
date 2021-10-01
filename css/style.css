@@ -626,12 +626,6 @@ table {
         background-color: none;
         padding: 10%;
     }
-    .content_04 {
-        background-image: none, url("https://raw.githubusercontent.com/ching-hsuan-huang/test/main/img/bg_gray.jpg");
-        background-repeat: no-repeat;
-        background-size: none, 100%;
-        background-position: none, bottom;
-    }
     .h1_4_title {
         margin: 50px 0 0 0;
     }
@@ -751,23 +745,36 @@ table {
         background-image: none;
     }
     .about_me_word {
-        width: 80%;
+        width: 90%;
         position: relative;
         right: 0;
         top: 0;
-        margin: 0 10%;
+        margin: 0 5%;
     }
     .about_me_word_p{
         font-size: 1.3rem;
-        margin-left: 30px;
+        margin-left: 0px;
     }
     .about_me_ul{
         margin-left: 30px;
     }
+    
+    .about_me_ul li {
+        font-size: 1rem;
+    }
        
     .h1_2 {
-        margin: 10%;
+        margin: 3%;
     }
+   
+    .h1_4 {
+        text-align: center;
+        width: 96%;
+        margin: 50px 2%;
+        padding: 2% 2%;
+    }
+    
+   
     .font_slogan {
         font-size: 6em;
     }
@@ -786,6 +793,11 @@ table {
     }
     .contact {
         position: relative;
+    }
+    .h2_1{
+        width: 100%;
+        margin: 30px 0;
+        padding: 36px 3%;
     }
 }
 
