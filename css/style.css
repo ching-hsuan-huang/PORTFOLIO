@@ -205,6 +205,13 @@ table {
     line-height: 3.5;
 }
 
+.font_p_aiming {
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
 .font_p_s {
     font-size: 0.78em;
     line-height: 2.5;
@@ -1034,6 +1041,19 @@ img {
     margin-bottom: 30px;
 }
 
+.aiming_pic {
+    width: 70%;
+    margin-right: 3%;
+    margin-bottom: 30px;
+}
+
+.aiming_a {
+    text-decoration:none;
+    font-weight: bold;
+    color: gray;
+    display: block;
+}
+
 .item_video {
     margin-right: 3%;
     margin-bottom: 30px;
@@ -1089,6 +1109,14 @@ img {
         display: flex;
         justify-content: center;
     }
+    
+    .aiming_pic {
+        width: 90%;
+        margin: 0 5%;
+        display: flex;
+        justify-content: center;
+    }
+
     .item_video {
         display: flex;
         justify-content: center;
