@@ -212,6 +212,12 @@ table {
     margin: 20px 0;
 }
 
+.link {
+    color: #3f4b64;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
 .font_p_s {
     font-size: 0.78em;
     line-height: 2.5;
@@ -220,6 +226,11 @@ table {
 
 .font_normal {
     font-weight: normal;
+    text-decoration: underline;
+}
+
+.font_p_aiming_h3 {
+    font-weight: bolder;
     text-decoration: underline;
 }
 
